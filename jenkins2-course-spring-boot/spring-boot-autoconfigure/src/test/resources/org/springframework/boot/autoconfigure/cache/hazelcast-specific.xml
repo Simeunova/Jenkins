@@ -1,0 +1,10 @@
+<hazelcast xsi:schemaLocation="https://www.hazelcast.com/schema/config hazelcast-config-3.6.xsd"
+		   xmlns="https://www.hazelcast.com/schema/config"
+		   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+
+	<map name="foobar">
+		<time-to-live-seconds>3600</time-to-live-seconds>
+		<max-idle-seconds>600</max-idle-seconds>
+	</map>
+
+</hazelcast>

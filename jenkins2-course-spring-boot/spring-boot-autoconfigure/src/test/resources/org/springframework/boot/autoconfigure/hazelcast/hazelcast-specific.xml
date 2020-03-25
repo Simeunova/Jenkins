@@ -1,0 +1,7 @@
+<hazelcast xsi:schemaLocation="https://www.hazelcast.com/schema/config hazelcast-config-3.6.xsd"
+		   xmlns="https://www.hazelcast.com/schema/config"
+		   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+
+	<queue name="foobar"/>
+
+</hazelcast>
